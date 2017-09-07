@@ -11,8 +11,9 @@ instead.
 ## Usage
 
 ```javascript
-range(start, end, step)
-range(end) // Assumes 0
+range(start, end, step) // specify everything
+range(start, end)       // same as range(start, end, 1)
+range(end)              // same as range(0, end, 1)
 ```
 
 If you specify only one argument, the function assumes that you want to start
