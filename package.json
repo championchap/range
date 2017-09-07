@@ -1,0 +1,9 @@
+{
+  "name": "range",
+  "version": "1.0.0",
+  "description": "Generates a stepped range",
+  "main": "src/range.js",
+  "repository": "git@github.com:championchap/range.git",
+  "author": "Erik Watson <erik@erikwatson.me>",
+  "license": "MIT"
+}
