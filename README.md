@@ -40,4 +40,4 @@ yarn run test
 
 ## Who wrote it
 
-  + [Erik Watson](mailto:erik@erikwatson.me)
+  + [Erik Watson](erikwatson.me)
