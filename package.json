@@ -5,5 +5,9 @@
   "main": "src/range.js",
   "repository": "git@github.com:championchap/range.git",
   "author": "Erik Watson <erik@erikwatson.me>",
-  "license": "MIT"
+  "license": "MIT",
+  "devDependencies": {
+    "chai": "^4.1.2",
+    "mocha": "^3.5.0"
+  }
 }
