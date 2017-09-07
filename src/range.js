@@ -6,4 +6,6 @@ const range = (start, end, step) =>
     .filter(x => Number.isInteger((x - start) / step))
 
 module.exports = (start, end, step = 1) =>
-  (end) ? range(start, end, step) : range(0, start, step)
+  (end)
+    ? range(start, end, step)
+    : range(0, start, step)
