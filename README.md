@@ -29,6 +29,14 @@ range(0, 10, 3) // [0, 3, 6, 9]
 range(10, 10)   // [10]
 ```
 
+## Tests
+
+If you want to run the tests for some reason, you can do so with:
+
+```bash
+yarn run test
+```
+
 ## Who wrote it
 
   + [Erik Watson](mailto:erik@erikwatson.me)
