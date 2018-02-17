@@ -10,6 +10,7 @@
     "jest": "^22.3.0"
   },
   "scripts": {
-    "test": "./node_modules/.bin/jest"
+    "test": "./node_modules/.bin/jest",
+    "watch": "yarn test --watch"
   }
 }
