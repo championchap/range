@@ -1,4 +1,4 @@
-# Range
+# range.js
 
 Generate an array of integers, inclusive of start and end values.
 
