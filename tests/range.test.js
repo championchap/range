@@ -94,7 +94,12 @@ test('should handle ranges from positive to negative', () => {
 //   range(10, 10, 3).should.deep.equal([10])
 // })
 test('should return the value if start and end match', () => {
-
+  expect(range(0, 0)).toEqual([0])
+  expect(range(0, 0, 2)).toEqual([0])
+  expect(range(0, 0, 3)).toEqual([0])
+  expect(range(10, 10)).toEqual([10])
+  expect(range(10, 10, 2)).toEqual([10])
+  expect(range(10, 10, 3)).toEqual([10])
 })
 
 // it ('should assume a start of 0 if only one arg is passed', () => {
