@@ -36,7 +36,7 @@ test('should respect the step size', () => {
 //   range(0, 5).should.deep.equal([0, 1, 2, 3, 4, 5])
 // })
 test('should end in the end number, if possible', () => {
-
+  expect(range(0, 5)).toEqual([0, 1, 2, 3, 4, 5])
 })
 
 // it ('should not spill over if the step is too high', () => {
