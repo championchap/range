@@ -59,7 +59,16 @@ test('should not spill over if the step is too high', () => {
 //   range(-10, -1, 10).should.deep.equal([-10])
 // })
 test('should handle negative ranges', () => {
-
+  expect(range(-10, -1, 1)).toEqual([-10, -9, -8, -7, -6, -5, -4, -3, -2, -1])
+  expect(range(-10, -1, 2)).toEqual([-10, -8, -6, -4, -2])
+  expect(range(-10, -1, 3)).toEqual([-10, -7, -4, -1])
+  expect(range(-10, -1, 4)).toEqual([-10, -6, -2])
+  expect(range(-10, -1, 5)).toEqual([-10, -5])
+  expect(range(-10, -1, 6)).toEqual([-10, -4])
+  expect(range(-10, -1, 7)).toEqual([-10, -3])
+  expect(range(-10, -1, 8)).toEqual([-10, -2])
+  expect(range(-10, -1, 9)).toEqual([-10, -1])
+  expect(range(-10, -1, 10)).toEqual([-10])
 })
 
 // it ('should handle ranges from negative to positive', () => {
