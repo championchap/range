@@ -1,5 +1,5 @@
 {
-  "name": "range",
+  "name": "@erikwatson/range",
   "version": "1.0.0",
   "description": "Generates a stepped range",
   "main": "lib/range.js",
