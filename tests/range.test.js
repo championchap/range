@@ -82,7 +82,7 @@ test('should handle ranges from negative to positive', () => {
 //   range(2, -2).should.deep.equal([2, 1, 0, -1, -2])
 // })
 test('should handle ranges from positive to negative', () => {
-
+  expect(range(2, -2)).toEqual([2, 1, 0, -1, -2])
 })
 
 // it ('should return the value if start and end match', () => {
