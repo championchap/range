@@ -108,5 +108,7 @@ test('should return the value if start and end match', () => {
 //   range(0).should.deep.equal([0])
 // })
 test('should assume a start of 0 if only one arg is passed', () => {
-
+  expect(range(5)).toEqual([0, 1, 2, 3, 4, 5])
+  expect(range(-5)).toEqual([0, -1, -2, -3, -4, -5])
+  expect(range(0)).toEqual([0])
 })
