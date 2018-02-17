@@ -1,4 +1,4 @@
-const range = require('../src/range')
+const range = require('../lib/range')
 
 test('should default to a step size of 1 if none is provided', () => {
   expect(range(0, 5)).toEqual([0, 1, 2, 3, 4, 5])
