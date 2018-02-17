@@ -43,7 +43,7 @@ test('should end in the end number, if possible', () => {
 //   range(0, 5, 6).should.deep.equal([0])
 // })
 test('should not spill over if the step is too high', () => {
-
+  expect(range(0, 5, 6)).toEqual([0])
 })
 
 // it ('should handle negative ranges', () => {
