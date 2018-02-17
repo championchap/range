@@ -29,12 +29,11 @@ range(10, 10)   // [10]
 
 ## Tests
 
-We use Jest for testing, it's installed locally but we have a test command set up.
-
-Run the tests with:
+We use Jest for testing, it's installed locally but we have a test and watch command set up.
 
 ```sh
 yarn test
+yarn watch
 ```
 
 ## Who wrote it
