@@ -5,9 +5,19 @@ Generate an array of integers, inclusive of start and end values.
 Be aware that this does not work with floats, and is rather slow.
 
 
-## Usage
+## Instructions
+
+Install
+
+```sh
+yarn install @erikwatson/range
+```
+
+Use it like this
 
 ```javascript
+const range = require('@erikwatson/range')
+
 range(start, end, step) // specify everything
 range(start, end)       // same as range(start, end, 1)
 range(end)              // same as range(0, end, 1)
