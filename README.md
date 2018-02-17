@@ -35,7 +35,7 @@ range(10, 10)   // [10]
 If you want to run the tests for some reason, you can do so with:
 
 ```bash
-yarn run test
+yarn test
 ```
 
 ## Who wrote it
