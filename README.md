@@ -1,11 +1,8 @@
 # Range
 
-This is an implementation of a Range function in JavaScript.
+Generate an array of integers, inclusive of start and end values.
 
-It's not very quick, but it was fun to write.
-
-If you are looking for something fast then just use the Lodash range function
-instead.
+Be aware that this does not work with floats, and is rather slow.
 
 
 ## Usage
@@ -32,9 +29,11 @@ range(10, 10)   // [10]
 
 ## Tests
 
-If you want to run the tests for some reason, you can do so with:
+We use Jest for testing, it's installed locally but we have a test command set up.
 
-```bash
+Run the tests with:
+
+```sh
 yarn test
 ```
 
