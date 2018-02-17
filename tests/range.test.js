@@ -4,7 +4,7 @@ const range = require('../src/range')
 //   range(0, 5).should.deep.equal([0, 1, 2, 3, 4, 5])
 // })
 test('should default to a step size of 1 if none is provided', () => {
-
+  expect(range(0, 5)).toEqual([0, 1, 2, 3, 4, 5])
 })
 
 // it ('should respect the step size', () => {
